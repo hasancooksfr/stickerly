@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stickerly - Make Stickerss!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Stickerly</h1>
+    <h3>Turn any image into a sticker</h3>
+    <input type="file" id="imageInput" accept="image/*">
+
+    <div class="border">
+        <label class="bsize" for="borderSize">Border Size</label>
+        <input type="range" id="borderSize" min="5" max="25" value="15">
+        <span id="borderValue">15px</span>
+    </div>
+
+    <div class="color">
+        <label for="colorPick">Pick Color for Border</label>
+        <input type="color" id="colorPick" value="#ffffff">
+    </div>
+
+    <br><br>
+    <canvas id="canvas"></canvas>
+    <br>
+    <button id="download">Download Sticker</button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

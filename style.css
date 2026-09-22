@@ -1,0 +1,108 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-size: 35px;
+    font-style: italic;
+    color:rgb(9, 129, 79);
+}
+
+h3 {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+#imageInput {
+    padding: 15px;
+    background-color: antiquewhite;
+    outline: 2px solid black;
+    border: none;
+    border-radius: 15px;
+}
+
+#imageInput::file-selector-button{
+    padding: 10px 15px;
+    border: none;
+    background-color: bisque;
+    outline: 1px solid;
+    border-radius: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.border {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin-top: 15px;
+    background-color: antiquewhite;
+    border: 0;
+    outline: 2px solid black;
+    border-radius: 15px;
+}
+
+.bsize {
+    font-weight: 600;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+#borderSize{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    width: 300px;
+    padding: 15px 10px;
+}
+
+#borderValue {
+    font-weight: 600;
+}
+
+.color {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    background-color: antiquewhite;
+    padding: 15px 20px;
+    border: none;
+    outline: 2px solid black;
+    border-radius: 15px;
+}
+
+.color label{
+    margin-bottom: 10px;
+    font-style: italic;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+button{
+    display: none;
+    padding: 15px 20px;
+    border: none;
+    outline: 2px solid black;
+    margin-top: 25px;
+    font-style: italic;
+    font-weight: 600;
+    border-radius: 15px;
+    background-color: chocolate;
+    color:  bisque;
+    cursor: pointer;
+}
+
+canvas{
+    border-radius: 15px;
+    border: 0;
+    outline: 1px solid;
+}
